@@ -1,0 +1,25 @@
+set of 66 rules
+
+rule length distribution (lhs + rhs):sizes
+ 2  3  4  5 
+14 27 20  5 
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+  2.000   3.000   3.000   3.242   4.000   5.000 
+
+summary of quality measures:
+    support         confidence          lift      
+ Min.   :0.3808   Min.   :0.8379   Min.   :1.329  
+ 1st Qu.:0.4113   1st Qu.:0.8756   1st Qu.:1.366  
+ Median :0.4427   Median :0.9211   Median :1.642  
+ Mean   :0.4442   Mean   :0.9139   Mean   :1.551  
+ 3rd Qu.:0.4679   3rd Qu.:0.9334   3rd Qu.:1.672  
+ Max.   :0.5685   Max.   :0.9862   Max.   :1.787  
+
+mining info:
+          data ntransactions support
+ transacciones          2227     0.2
+                                                                            call
+ eclat(data = transacciones, control = list(verbose = FALSE), supp = sup_actual)
+ confidence
+        0.8
