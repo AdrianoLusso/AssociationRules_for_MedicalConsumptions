@@ -1,0 +1,30 @@
+set of 7 rules
+
+rule length distribution (lhs + rhs):sizes
+2 
+7 
+
+   Min. 1st Qu.  Median    Mean 3rd Qu.    Max. 
+      2       2       2       2       2       2 
+
+summary of quality measures:
+    support         confidence        coverage           lift      
+ Min.   :0.5155   Min.   :0.8379   Min.   :0.5254   Min.   :1.340  
+ 1st Qu.:0.5155   1st Qu.:0.9089   1st Qu.:0.5519   1st Qu.:1.340  
+ Median :0.5177   Median :0.9095   Median :0.5671   Median :1.647  
+ Mean   :0.5313   Mean   :0.9176   Mean   :0.5810   Mean   :1.555  
+ 3rd Qu.:0.5431   3rd Qu.:0.9361   3rd Qu.:0.5961   3rd Qu.:1.716  
+ Max.   :0.5685   Max.   :0.9855   Max.   :0.6785   Max.   :1.786  
+     count     
+ Min.   :1148  
+ 1st Qu.:1148  
+ Median :1153  
+ Mean   :1183  
+ 3rd Qu.:1210  
+ Max.   :1266  
+
+mining info:
+          data ntransactions support confidence
+ transacciones          2227     0.5        0.8
+                                                                                                                                              call
+ apriori(data = transacciones, parameter = list(support = sup_actual, confidence = 0.8, minlen = 2, maxtime = 0), control = list(verbose = FALSE))
