@@ -1,6 +1,0 @@
-drive:
-https://docs.google.com/document/d/1OVQPmrD5lYUysWrHstn9gPCkVdxSezHN9gPCbQcnx40/edit?tab=t.0
-
-
-notebook:
-https://colab.research.google.com/drive/10dcMsQ72RAXeBDVlBwDvwxE1wXIeeE-i?usp=sharing
